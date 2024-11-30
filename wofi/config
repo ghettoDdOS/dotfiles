@@ -1,0 +1,9 @@
+width=400
+height=740
+x=760
+y=340
+columns=1
+prompt=Search...
+allow_images=false
+hide_scroll=true
+no_actions=true
