@@ -23,6 +23,9 @@ window {
 
 #text {
   color: #ffffff;
+  font-family: JetBrainsMono Nerd Font Mono, monospace;
+  font-size: 13px;
+  font-width: 700;
 }
 
 #entry {
@@ -38,4 +41,14 @@ window {
 
 #text:selected {
   color: #a594f9;
+  animation: selected 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes selected {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0 10px;
+  }
 }
