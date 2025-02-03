@@ -20,6 +20,10 @@
   ],
   "hyprland/workspaces": {
     "format": "{icon}",
+    "all-outputs": false,
+    "persistent_workspaces": {
+      "*": 5 // put 5 workspaces on each monitor, with same formula as the plugin
+    },
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1"
   },
